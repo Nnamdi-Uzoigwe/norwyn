@@ -23,7 +23,7 @@ const Navbar = () => {
         />
 
         {/* Desktop nav links */}
-        <div className="hidden md:flex items-center hover:font-semibold gap-6 font-medium lg:gap-10">
+        <div className="hidden md:flex items-center gap-6 font-medium lg:gap-10">
           <Link href="/"><h4>Home</h4></Link>
           <Link href="/about"><h4>About</h4></Link>
           <Link href="/services"><h4>Services</h4></Link>
