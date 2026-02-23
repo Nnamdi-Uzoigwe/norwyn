@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <div className="bg-white text-[#0a1628] px-6 lg:px-40 shadow-sm fixed w-full top-0 z-50">
       {/* Main navbar row */}
-      <div className="flex items-center justify-between h-24">
+      <div className="flex items-center justify-between h-20 lg:h-24">
         {/* Logo */}
         <Image
           src="/NORWYN.svg"
@@ -55,7 +55,7 @@ const Navbar = () => {
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/services">Services</Link>
-          <Link href="/contact" className="bg-[#b8960c] text-white rounded-md px-10 py-2">
+          <Link href="/contact" className="bg-[#b8960c] text-white rounded-full px-10 py-2">
             Contact
           </Link>
         </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
         <Link
           href="/contact"
           onClick={() => setIsOpen(false)}
-          className="bg-[#b8960c] text-white rounded-md px-10 py-2 text-center"
+          className="bg-[#b8960c] text-white rounded-full px-10 py-2 text-center"
         >
           Contact
         </Link>

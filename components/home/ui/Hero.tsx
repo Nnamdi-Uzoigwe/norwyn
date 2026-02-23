@@ -67,6 +67,7 @@ import { motion } from "motion/react"
 interface HeroProps {
   title: string
   subtitle?: string
+  description?: string
   backgroundImage: string
   ctaText?: string
   ctaLink?: string
@@ -75,6 +76,7 @@ interface HeroProps {
 const Hero = ({
   title,
   subtitle,
+  description,
   backgroundImage,
   ctaText,
   ctaLink = "/",
@@ -114,7 +116,7 @@ const Hero = ({
         {/* Subtitle */}
         {subtitle && (
           <motion.p
-            className="mt-4 text-base md:text-lg text-white/80 max-w-2xl"
+            className="mt-4 text-md lg:text-lg text-white/70 max-w-2xl"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.6, ease: "easeOut" }}
@@ -122,6 +124,18 @@ const Hero = ({
             {subtitle}
           </motion.p>
         )}
+
+        {/* Description
+        {description && (
+          <motion.p
+            className="mt-4 text-sm lg:text-[16px] text-white/80 max-w-2xl"
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.6, ease: "easeOut" }}
+          >
+            {description}
+          </motion.p>
+        )} */}
 
         {/* CTA Button */}
         {ctaText && (
@@ -132,7 +146,7 @@ const Hero = ({
           >
             <Link
               href={ctaLink}
-              className="mt-8 inline-block bg-[#b8960c] text-white font-medium px-10 py-3 rounded-md hover:bg-[#a07c0a] transition-colors duration-300"
+              className="mt-8 inline-block bg-[#b8960c] text-white font-medium px-10 py-3 rounded-full hover:bg-[#a07c0a] transition-colors duration-300"
             >
               <motion.span
                 whileHover={{ letterSpacing: "0.05em" }}
