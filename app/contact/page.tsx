@@ -4,8 +4,8 @@ import { ContactIntro } from "@/components/contact/ContactIntro";
 export default function Contact() {
     return (
         <div>
-            <ContactIntro />
             <ContactForm />
+            <ContactIntro />
         </div>
     )
 }

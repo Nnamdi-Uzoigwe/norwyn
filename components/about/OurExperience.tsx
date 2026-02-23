@@ -1,10 +1,3 @@
-// export default function OurExperience() {
-//     return (
-//         <div>Our Experience Section</div>
-//     )
-// }
-
-
 "use client"
 
 import { motion } from "motion/react"

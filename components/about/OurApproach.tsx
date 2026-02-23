@@ -1,10 +1,3 @@
-// export default function OurApproach() {
-//     return (
-//         <div>Our Approach Section</div>
-//     )
-// }
-
-
 "use client"
 
 import { motion } from "motion/react"
@@ -115,7 +108,7 @@ export default function OurApproach() {
                 className="group relative lg:pl-20 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#b8960c]/50 rounded-2xl p-8 transition-all duration-300"
               >
                 {/* Step number — left side connector dot */}
-                <div className="absolute left-[18px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-[#0a1628] border-2 border-[#b8960c]/40 group-hover:border-[#b8960c] transition-colors duration-300 hidden lg:block" />
+                <div className="absolute left-4.5 top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-[#0a1628] border-2 border-[#b8960c]/40 group-hover:border-[#b8960c] transition-colors duration-300 hidden lg:block" />
 
                 <div className="flex items-start gap-6">
                   {/* Number + Icon */}

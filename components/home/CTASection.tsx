@@ -1,9 +1,3 @@
-// export default function CTASection() {
-//     return (
-//         <div>CTA Section</div>
-//     )
-// }
-
 "use client"
 
 import { motion } from "motion/react"

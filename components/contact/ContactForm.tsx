@@ -1,9 +1,5 @@
-// export default function ContactForm() {
-//     return (
-//         <div>Contact Form Section</div>
-//     )
-// }
 "use client"
+
 import { useState } from "react"
 import { motion } from "motion/react"
 import { HiOutlineLockClosed } from "react-icons/hi"

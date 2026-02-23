@@ -1,9 +1,3 @@
-// export default function WhyWeDifferent() {
-//     return (
-//         <div>Why we different Section</div>
-//     )
-// }
-
 "use client"
 
 import { motion } from "motion/react"
@@ -20,7 +14,7 @@ const features = [
     title: "Digital Asset Tracing",
     description:
       "We follow stolen funds across wallets, chains, and exchanges — leaving no transaction unturned.",
-    size: "large", // spans 2 cols
+    size: "large", 
   },
   {
     icon: <TbBinaryTree className="text-3xl text-[#b8960c]" />,
@@ -48,7 +42,7 @@ const features = [
     title: "Exchange Engagement",
     description:
       "Direct engagement with crypto exchanges to freeze accounts and preserve evidence.",
-    size: "large", // spans 2 cols
+    size: "large", 
   },
   {
     icon: <GiReceiveMoney className="text-3xl text-[#b8960c]" />,

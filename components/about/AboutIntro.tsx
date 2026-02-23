@@ -1,9 +1,3 @@
-// export default function AboutIntro() {
-//     return (
-//         <div>About Intro Section</div>
-//     )
-// }
-
 "use client"
 
 import Image from "next/image"

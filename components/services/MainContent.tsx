@@ -1,11 +1,5 @@
-// export default function MainContent() {
-//     return (
-//         <div>Main Content Section</div>
-//     )
-// }
 "use client"
 
-// ─── SERVICES DATA ────────────────────────────────────────────────────────────
 import { motion } from "motion/react";
 import { PiScalesBold } from "react-icons/pi"
 import { TbBinaryTree } from "react-icons/tb"

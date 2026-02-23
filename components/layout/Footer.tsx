@@ -1,15 +1,3 @@
-// import React from 'react'
-
-// const Footer = () => {
-//   return (
-//     <div className='bg-[#0a1628] text-white'>Footer</div>
-//   )
-// }
-
-// export default Footer
-
-
-import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BiBitcoin } from 'react-icons/bi'
@@ -43,7 +31,7 @@ const Footer = () => {
     <footer className='bg-[#0a1628] text-white'>
 
       {/* Top border accent */}
-      <div className='w-full h-[2px] bg-gradient-to-r from-transparent via-[#b8960c] to-transparent' />
+      <div className='w-full h-0.5 bg-linear-to-r from-transparent via-[#b8960c] to-transparent' />
 
       {/* Main footer content */}
       <div className='px-6 lg:px-40 py-16'>

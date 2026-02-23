@@ -1,9 +1,3 @@
-// export default function WhoWeHelp() {
-//     return (
-//         <div>Who we help Section</div>
-//     )
-// }
-
 "use client"
 
 import { motion } from "motion/react"
@@ -109,7 +103,7 @@ export default function WhoWeHelp() {
             </motion.div>
           ))}
 
-          {/* Last card — pathway CTA card */}
+          {/* Last card */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

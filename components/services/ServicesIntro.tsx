@@ -1,20 +1,10 @@
-// export default function ServicesIntro() {
-//     return (
-//         <div>Services Intro Section</div>
-//     )
-// }
-
-
 "use client"
 
 import { motion } from "motion/react"
 
-
-// ─── INTRO ───────────────────────────────────────────────────────────────────
-
 export default function ServicesIntro() {
   return (
-    <section className="relative w-full h-[60vh] min-h-[400px]">
+    <section className="relative w-full h-[60vh] min-h-100">
       {/* Background — reuse a dark office image */}
       <div className="absolute inset-0 bg-[#0a1628]" />
 

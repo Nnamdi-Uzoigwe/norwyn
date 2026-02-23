@@ -1,9 +1,3 @@
-// export default function OurMission() {
-//     return (
-//         <div>Our Mission Section</div>
-//     )
-// }
-
 "use client"
 
 import { motion } from "motion/react"
@@ -38,7 +32,7 @@ export default function OurMission() {
 
       {/* Background decorative text */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
-        <p className="font-heading text-[12rem] md:text-[18rem] font-bold text-white/[0.02] leading-none tracking-tighter">
+        <p className="font-heading text-[12rem] md:text-[18rem] font-bold text-white/2 leading-none tracking-tighter">
           MISSION
         </p>
       </div>

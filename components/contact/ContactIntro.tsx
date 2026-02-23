@@ -1,10 +1,3 @@
-// export default function ContactIntro() {
-//     return (
-//         <div>Contact Intro Section</div>
-//     )
-// }
-
-
 "use client"
 
 import { motion } from "motion/react"
@@ -13,8 +6,6 @@ import { TbChartCandle } from "react-icons/tb"
 import { MdOutlineAccountBalance } from "react-icons/md"
 import { RiCoinLine } from "react-icons/ri"
 import { HiOutlineLockClosed } from "react-icons/hi"
-
-// ─── INTRO ────────────────────────────────────────────────────────────────────
 
 const fraudTypes = [
   { icon: <BiBitcoin className="text-xl text-[#b8960c]" />, label: "Cryptocurrency Fraud" },
@@ -87,7 +78,7 @@ export function ContactIntro() {
             </motion.div>
           </div>
 
-          {/* Right — fraud types */}
+          {/* Right  */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}

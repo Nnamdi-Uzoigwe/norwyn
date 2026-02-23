@@ -1,14 +1,6 @@
-// export default function IntroSection() {
-//     return (
-//         <div>Intro Section</div>
-//     )
-// }
-
-
 "use client"
 
 import { motion } from "motion/react"
-import { MdOutlinePolicy } from "react-icons/md"
 import { BsSearch } from "react-icons/bs"
 import { AiOutlineStop } from "react-icons/ai"
 import { PiScalesBold } from "react-icons/pi"
@@ -44,7 +36,7 @@ export default function IntroSection() {
 
         {/* Top statement */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
-          {/* Left — bold stat/hook */}
+          {/* Left */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -69,7 +61,7 @@ export default function IntroSection() {
             </p>
           </motion.div>
 
-          {/* Right — visual stat blocks */}
+          {/* Right */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
