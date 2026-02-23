@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${syne.variable} font-sans antialiased mt-20 lg:mt-24`}
+        className={`${inter.variable} ${syne.variable} font-sans antialiased mt-20 lg:mt-24 overflow-x-hidden`}
       >
         <Navbar />
         {children}

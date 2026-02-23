@@ -52,11 +52,11 @@ const Navbar = () => {
 
         {/* Desktop nav links */}
         <div className="hidden md:flex items-center gap-6 font-medium lg:gap-10">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/services">Services</Link>
+          <Link href="/"><h4>Home</h4></Link>
+          <Link href="/about"><h4>About</h4></Link>
+          <Link href="/services"><h4>Services</h4></Link>
           <Link href="/contact" className="bg-[#b8960c] text-white rounded-md px-10 py-2">
-            Contact
+            <h4>Contact</h4>
           </Link>
         </div>
 
@@ -77,15 +77,19 @@ const Navbar = () => {
           isOpen ? "max-h-96 opacity-100 pb-6" : "max-h-0 opacity-0"
         }`}
       >
-        <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
-        <Link href="/about" onClick={() => setIsOpen(false)}>About</Link>
-        <Link href="/services" onClick={() => setIsOpen(false)}>Services</Link>
+        <Link href="/" onClick={() => setIsOpen(false)}>
+            <h4>
+                Home
+            </h4>
+        </Link>
+        <Link href="/about" onClick={() => setIsOpen(false)}><h4>About</h4></Link>
+        <Link href="/services" onClick={() => setIsOpen(false)}><h4>Services</h4></Link>
         <Link
           href="/contact"
           onClick={() => setIsOpen(false)}
           className="bg-[#b8960c] text-white rounded-md px-10 py-2 text-center"
         >
-          Contact
+          <h4>Contact</h4>
         </Link>
       </div>
     </div>
