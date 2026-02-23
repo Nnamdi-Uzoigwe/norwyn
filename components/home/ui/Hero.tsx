@@ -105,7 +105,7 @@ const Hero = ({
 
         {/* Title */}
         <motion.h1
-          className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-4xl"
+          className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-5xl"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
@@ -116,7 +116,7 @@ const Hero = ({
         {/* Subtitle */}
         {subtitle && (
           <motion.p
-            className="mt-4 text-md lg:text-lg text-white/70 max-w-2xl"
+            className="mt-4 text-sm lg:text-lg text-white/70 max-w-2xl"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.6, ease: "easeOut" }}
@@ -146,7 +146,7 @@ const Hero = ({
           >
             <Link
               href={ctaLink}
-              className="mt-8 inline-block bg-[#b8960c] text-white font-medium px-10 py-3 rounded-full hover:bg-[#a07c0a] transition-colors duration-300"
+              className="mt-8 inline-block bg-[#b8960c] text-white font-medium px-10 py-3 rounded-md hover:bg-[#a07c0a] transition-colors duration-300"
             >
               <motion.span
                 whileHover={{ letterSpacing: "0.05em" }}
