@@ -6,3 +6,13 @@ h1, h2, h3, h4, h5 {
 body {
   font-family: "Inter", sans-serif;
 }
+
+@layer utilities {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button, a {
+    @apply active:scale-95 transition-transform duration-100;
+  }
+}

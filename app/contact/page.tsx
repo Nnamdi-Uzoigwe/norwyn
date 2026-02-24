@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div>
             <ContactForm />
-            <ContactIntro />
+            {/* <ContactIntro /> */}
         </div>
     )
 }
