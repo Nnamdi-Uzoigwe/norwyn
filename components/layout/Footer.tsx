@@ -79,30 +79,6 @@ const Footer = () => {
                 +44 123 456 7890
               </a>
             </div>
-
-            {/* Socials */}
-            <div className="flex items-center gap-3">
-              <a
-                href="#"
-                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#b8960c]/50 hover:bg-[#b8960c]/10 transition-all duration-300"
-              >
-                <FaXTwitter className="text-sm text-[#94a3b8] hover:text-[#b8960c]" />
-              </a>
-
-              <a
-                href="#"
-                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#b8960c]/50 hover:bg-[#b8960c]/10 transition-all duration-300"
-              >
-                <FaLinkedinIn className="text-sm text-[#94a3b8] hover:text-[#b8960c]" />
-              </a>
-
-              <a
-                href="#"
-                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#b8960c]/50 hover:bg-[#b8960c]/10 transition-all duration-300"
-              >
-                <BiBitcoin className="text-sm text-[#94a3b8] hover:text-[#b8960c]" />
-              </a>
-            </div>
           </div>
 
           {/* Col 2 — Quick Links */}
