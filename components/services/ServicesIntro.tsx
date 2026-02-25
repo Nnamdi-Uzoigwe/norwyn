@@ -50,7 +50,7 @@ export default function ServicesIntro() {
           transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
           className="text-white/70 text-base md:text-lg mt-4 max-w-xl"
         >
-          From prevention to recovery — every stage handled under one coordinated structure.
+          From prevention to recovery - every stage handled under one coordinated structure.
         </motion.p>
       </div>
     </section>

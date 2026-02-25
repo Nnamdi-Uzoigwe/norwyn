@@ -249,16 +249,16 @@ const Footer = () => {
           {/* Col 1 — Brand */}
           <div className="lg:col-span-1">
             <Image
-              src="/NORWYN.svg"
-              height={90}
-              width={90}
+              src="/icon.png"
+              height={60}
+              width={60}
               alt="Norwyn logo"
               className="mb-5"
             />
 
             <p className="text-[#94a3b8] text-sm leading-relaxed mb-6">
               Specialists in cryptocurrency and investment fraud recovery. We
-              trace, freeze, litigate, and pursue recovery — relentlessly.
+              trace, freeze, litigate, and pursue recovery relentlessly.
             </p>
 
             {/* Contact */}
@@ -268,7 +268,7 @@ const Footer = () => {
                 className="flex items-center gap-3 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
               >
                 <MdOutlineEmail className="text-[#b8960c] text-base shrink-0" />
-                info@norwyn.com
+                help@norwynsolution.com
               </a>
 
               <a
@@ -397,7 +397,7 @@ const Footer = () => {
       <div className="px-6 lg:px-40 py-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-[#475569] text-xs">
-            © {new Date().getFullYear()} Norwyn. All rights reserved.
+            © {new Date().getFullYear()} Norwyn Solution. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">

@@ -1,25 +1,25 @@
-"use client"
+"use client";
 
-import { motion } from "motion/react"
-import { TbBinaryTree } from "react-icons/tb"
-import { PiScalesBold } from "react-icons/pi"
-import { BsLightningCharge } from "react-icons/bs"
-import { RiShieldCheckLine } from "react-icons/ri"
+import { motion } from "motion/react";
+import { TbBinaryTree } from "react-icons/tb";
+import { PiScalesBold } from "react-icons/pi";
+import { BsLightningCharge } from "react-icons/bs";
+import { RiShieldCheckLine } from "react-icons/ri";
 
 const pillars = [
   {
     icon: <TbBinaryTree className="text-3xl text-[#b8960c]" />,
     title: "Technical Movement of Crypto Assets",
     description:
-      "We understand how stolen funds move — across wallets, chains, mixers, and exchanges. Our analysts trace with precision and produce court-ready reports.",
+      "We understand how stolen funds move across wallets, chains, mixers, and exchanges. Our analysts trace with precision and produce court-ready reports.",
   },
   {
     icon: <PiScalesBold className="text-3xl text-[#b8960c]" />,
     title: "Legal Pathways to Recovery",
     description:
-      "From freezing injunctions to civil litigation and regulatory engagement — we know which legal tools apply and when to deploy them.",
+      "From freezing injunctions to civil litigation and regulatory engagement, we know which legal tools apply and when to deploy them.",
   },
-]
+];
 
 const qualities = [
   {
@@ -37,13 +37,12 @@ const qualities = [
     label: "Professionally",
     description: "Held to the highest legal and ethical standards.",
   },
-]
+];
 
 export default function OurExperience() {
   return (
     <section className="w-full bg-white px-6 lg:px-40 py-24">
       <div className="max-w-6xl mx-auto">
-
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -61,8 +60,8 @@ export default function OurExperience() {
           </h2>
           <p className="text-[#4a5568] text-base md:text-lg leading-relaxed mt-6">
             With focused experience in digital asset recovery and financial
-            litigation — including successfully securing freezing and injunctive
-            relief where appropriate — we understand both sides of the equation.
+            litigation, including successfully securing freezing and injunctive
+            relief where appropriate, we understand both sides of the equation.
           </p>
         </motion.div>
 
@@ -108,8 +107,7 @@ export default function OurExperience() {
           className="bg-[#f8f6f0] border border-[#e8e0cc] rounded-2xl p-8 md:p-12"
         >
           <p className="font-heading text-2xl md:text-3xl font-bold text-[#0a1628] mb-10 text-center">
-            We act{" "}
-            <span className="text-[#b8960c]">swiftly</span>,{" "}
+            We act <span className="text-[#b8960c]">swiftly</span>,{" "}
             <span className="text-[#b8960c]">strategically</span>, and{" "}
             <span className="text-[#b8960c]">professionally.</span>
           </p>
@@ -121,7 +119,11 @@ export default function OurExperience() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.2 + i * 0.1, ease: "easeOut" }}
+                transition={{
+                  duration: 0.5,
+                  delay: 0.2 + i * 0.1,
+                  ease: "easeOut",
+                }}
                 className="flex flex-col items-center text-center gap-3 group"
               >
                 <div className="w-12 h-12 rounded-full bg-white border border-[#e8e0cc] flex items-center justify-center group-hover:border-[#b8960c]/40 group-hover:bg-[#b8960c]/10 transition-all duration-300">
@@ -137,8 +139,7 @@ export default function OurExperience() {
             ))}
           </div>
         </motion.div>
-
       </div>
     </section>
-  )
+  );
 }

@@ -84,7 +84,7 @@ export default function AboutIntro() {
                 </p>
                 <p>
                   We built a streamlined, action-focused recovery structure
-                  designed to move quickly and strategically — bringing together
+                  designed to move quickly and strategically, bringing together
                   blockchain analysts and legal professionals under one roof.
                 </p>
               </div>
@@ -95,7 +95,7 @@ export default function AboutIntro() {
                   We do not overpromise.
                 </p>
                 <p className="text-[#4a5568] text-base mt-1">
-                  We assess, act, and pursue — with clarity and precision.
+                  We assess, act, and pursue with clarity and precision.
                 </p>
               </div>
             </motion.div>

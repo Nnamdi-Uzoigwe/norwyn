@@ -169,7 +169,7 @@ const steps = [
   {
     icon: <PiScalesBold className="text-2xl text-[#b8960c]" />,
     label: "We Litigate.",
-    description: "Our legal team pursues every avenue — civil, criminal, and regulatory.",
+    description: "Our legal team pursues every avenue - civil, criminal, and regulatory.",
   },
   {
     icon: <GiReceiveMoney className="text-2xl text-[#b8960c]" />,
@@ -219,7 +219,7 @@ export default function IntroSection() {
             className="grid grid-cols-2 gap-4"
           >
             {[
-              { stat: "$5.6B+", label: "Lost to crypto fraud in 2023 alone" },
+              { stat: "$17B", label: "Lost to crypto-related scams in 2025 alone" },
               { stat: "46%", label: "Of victims never report the crime" },
               { stat: "72hrs", label: "Critical window to freeze stolen assets" },
               { stat: "1 in 3", label: "Online investments are fraudulent" },

@@ -17,9 +17,9 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Norwyn Solutions | Investment Fraud Recovery Specialists",
+  title: "Norwyn Solution | Investment Fraud Recovery Specialists",
   description:
-    "Norwyn Solutions provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
+    "Norwyn Solution provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
   keywords: [
     "asset recovery",
     "cryptocurrency tracing",
@@ -28,19 +28,19 @@ export const metadata: Metadata = {
     "freezing orders",
   ],
   openGraph: {
-    title: "Norwyn Solutions | Investment Fraud Recovery Specialists",
+    title: "Norwyn Solution | Investment Fraud Recovery Specialists",
     description:
       "Norwyn Solutions provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
     url: "https://norwyn.vercel.app", // 👈 replace with your actual URL
-    siteName: "Norwyn Solutions",
+    siteName: "Norwyn Solution",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Norwyn Solutions | Investment Fraud Recovery Specialists",
+    title: "Norwyn Solution | Investment Fraud Recovery Specialists",
     description:
-      "Norwyn Solutions provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
+      "Norwyn Solution provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
   },
 };
 

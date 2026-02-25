@@ -49,7 +49,7 @@ export default function CTASection() {
           className="text-[#4a5568] text-base md:text-lg leading-relaxed max-w-xl mx-auto mb-10"
         >
           Request a confidential case assessment today. Our team will review
-          your situation and outline every available pathway — at no obligation.
+          your situation and outline every available pathway at no obligation.
         </motion.p>
 
         {/* CTA Button */}
