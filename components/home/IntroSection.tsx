@@ -267,10 +267,11 @@ export default function IntroSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.15, ease: "easeOut" }}
-              className="group bg-white border border-[#e8e0cc] rounded-xl p-6 transition-all duration-300 [@media(hover:hover)]:hover:border-[#b8960c] [@media(hover:hover)]:hover:shadow-lg"
+              className="group bg-white border border-[#e8e0cc] rounded-xl p-6"
+              whileHover={{ boxShadow: "0 10px 30px rgba(0,0,0,0.1)", borderColor: "#b8960c" }}
             >
               {/* Icon */}
-              <div className="w-12 h-12 rounded-lg bg-[#f8f6f0] flex items-center justify-center mb-4 [@media(hover:hover)]:group-hover:bg-[#b8960c]/10 transition-colors duration-300">
+              <div className="w-12 h-12 rounded-lg bg-[#f8f6f0] flex items-center justify-center mb-4">
                 {step.icon}
               </div>
 
