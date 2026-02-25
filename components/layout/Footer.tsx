@@ -60,7 +60,7 @@ const Footer = () => {
 
             <p className="text-[#5e6977] text-sm leading-relaxed mb-6">
               Your bank may have failed you. We won't. <br />
-              We step in with regulated forensiv expertise, identifying where funds have gone and providing actionable, court-ready evidence.
+              We step in with regulated forensic expertise, identifying where funds have gone and providing actionable, court-ready evidence.
             </p>
 
             {/* Contact */}

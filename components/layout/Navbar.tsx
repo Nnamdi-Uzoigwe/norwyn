@@ -23,7 +23,7 @@ const Navbar = () => {
             alt="norwyn logo"
             />
         </Link>
-
+        {/* logo on mobile */}
         <Link href="/" className="flex lg:hidden">
           <Image
             src="/NORWYN.svg"
