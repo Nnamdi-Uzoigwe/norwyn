@@ -67,7 +67,7 @@ const Hero = ({
         >
           <div className="w-10 h-px bg-[#b8960c]" />
           <span className="text-[#b8960c] font-medium text-xs uppercase tracking-[0.2em]">
-            Crypto & Investment Fraud Recovery
+            DIGITAL ASSET & FINANCIAL FRAUD FORENSICS
           </span>
         </motion.div>
 

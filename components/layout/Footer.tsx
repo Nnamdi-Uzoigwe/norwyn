@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 import { HiOutlineLockClosed } from "react-icons/hi";
 
 const quickLinks = [
@@ -58,19 +58,30 @@ const Footer = () => {
             </Link>
 
             <p className="text-[#94a3b8] text-sm leading-relaxed mb-6">
-              Specialists in cryptocurrency and investment fraud recovery. We
-              trace, freeze, litigate, and pursue recovery relentlessly.
+              Your bank may have failed you. We won't. <br />
+              We step in with regulated forensiv expertise, identifying where funds have gone and providing actionable, court-ready evidence.
             </p>
 
             {/* Contact */}
             <div className="space-y-3 mb-6">
               <a
-                href="mailto:info@norwyn.com"
+                href="mailto:help@norwynsolution.com"
                 className="flex items-center gap-3 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
               >
                 <MdOutlineEmail className="text-[#b8960c] text-base shrink-0" />
                 help@norwynsolution.com
               </a>
+            </div>
+
+            {/* Address */}
+            <div className="space-y-3 mb-6">
+              <span
+                
+                className="flex items-center gap-3 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
+              >
+                <MdOutlineLocationOn className="text-[#b8960c] text-base shrink-0" />
+                20 Farrington St, London EC4A4AB, UK
+              </span>
             </div>
           </div>
 

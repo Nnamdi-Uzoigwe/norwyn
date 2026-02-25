@@ -27,8 +27,8 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
           className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-[#0a1628] leading-tight"
         >
-          Lost Cryptocurrency? <br />
-          <span className="text-[#b8960c]">Lost Your Life Savings?</span>
+          Lost Your Life Savings? <br />
+          <span className="text-[#b8960c]">Need Clarity on Where Your Funds Have Gone?</span>
         </motion.h2>
 
         {/* Divider */}
