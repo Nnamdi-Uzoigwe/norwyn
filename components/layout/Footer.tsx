@@ -38,7 +38,8 @@ const badges = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0a1628] text-white">
+    <footer className="bg-[#F5F7FA] text-white">
+    {/* <footer className="bg-[#0a1628] text-white"> */}
       {/* Top border accent */}
       <div className="w-full h-0.5 bg-linear-to-r from-transparent via-[#b8960c] to-transparent" />
 
@@ -49,15 +50,15 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Link href="/">
               <Image  
-                src="/icon.png"
-                height={60}
-                width={60}
+                src="/Norwyn.svg"
+                height={80}
+                width={80}
                 alt="Norwyn logo"
                 className="mb-5"
               />
             </Link>
 
-            <p className="text-[#94a3b8] text-sm leading-relaxed mb-6">
+            <p className="text-[#5e6977] text-sm leading-relaxed mb-6">
               Your bank may have failed you. We won't. <br />
               We step in with regulated forensiv expertise, identifying where funds have gone and providing actionable, court-ready evidence.
             </p>
@@ -66,7 +67,7 @@ const Footer = () => {
             <div className="space-y-3 mb-6">
               <a
                 href="mailto:help@norwynsolution.com"
-                className="flex items-center gap-3 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
+                className="flex items-center gap-3 text-[#5e6977] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
               >
                 <MdOutlineEmail className="text-[#b8960c] text-base shrink-0" />
                 help@norwynsolution.com
@@ -77,7 +78,7 @@ const Footer = () => {
             <div className="space-y-3 mb-6">
               <span
                 
-                className="flex items-center gap-3 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
+                className="flex items-center gap-3 text-[#5e6977] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
               >
                 <MdOutlineLocationOn className="text-[#b8960c] text-base shrink-0" />
                 20 Farrington St, London EC4A4AB, UK
@@ -87,7 +88,7 @@ const Footer = () => {
 
           {/* Col 2 — Quick Links */}
           <div>
-            <h4 className="font-heading font-bold text-white text-sm uppercase tracking-widest mb-6">
+            <h4 className="font-heading font-bold text-[#5e6977] text-sm uppercase tracking-widest mb-6">
               Quick Links
             </h4>
             <ul className="space-y-3">
@@ -95,7 +96,7 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     href={link.href}
-                    className="flex items-center gap-2 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
+                    className="flex items-center gap-2 text-[#5e6977] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
                   >
                     <div className="w-1 h-1 rounded-full bg-[#b8960c]/40 group-hover:bg-[#b8960c] transition-colors duration-200" />
                     {link.label}
@@ -107,7 +108,7 @@ const Footer = () => {
 
           {/* Col 3 — Services */}
           <div>
-            <h4 className="font-heading font-bold text-white text-sm uppercase tracking-widest mb-6">
+            <h4 className="font-heading font-bold text-[#5e6977] text-sm uppercase tracking-widest mb-6">
               Our Services
             </h4>
             <ul className="space-y-3">
@@ -115,7 +116,7 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     href={service.href}
-                    className="flex items-start gap-2 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
+                    className="flex items-start gap-2 text-[#5e6977] hover:text-[#b8960c] transition-colors duration-200 text-sm group"
                   >
                     <div className="w-1 h-1 rounded-full bg-[#b8960c]/40 group-hover:bg-[#b8960c] transition-colors duration-200 mt-2 shrink-0" />
                     {service.label}
@@ -127,8 +128,8 @@ const Footer = () => {
 
           {/* Col 4 — Verified Badges */}
           <div className="flex flex-col items-start">
-            <h4 className="font-heading font-bold text-white text-sm uppercase tracking-widest mb-6">
-              Verified & Certified
+            <h4 className="font-heading font-bold text-[#5e6977] text-sm uppercase tracking-widest mb-6">
+              Verified & [Certified]
             </h4>
 
             <div className="flex flex-col gap-4">
@@ -138,7 +139,7 @@ const Footer = () => {
                   href={badge.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col gap-2 items-center w-44 justify-center bg-white/5 border border-white/10 rounded-xl px-4 py-4 hover:border-[#b8960c]/40 hover:bg-white/10 transition-all duration-300"
+                  className="flex flex-col gap-2 items-center w-44 justify-center bg-black/5 border border-black/10 rounded-xl px-4 py-4 hover:border-[#b8960c]/40 hover:bg-white/10 transition-all duration-300"
                 >
                   <Image
                     src={badge.src}
@@ -155,13 +156,13 @@ const Footer = () => {
             </div>
 
             {/* Confidential badge */}
-            <div className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl px-4 py-3 mt-4">
+            <div className="flex items-center gap-3 bg-black/5 border border-black/10 rounded-xl px-4 py-3 mt-4">
               <HiOutlineLockClosed className="text-[#b8960c] text-lg shrink-0" />
               <div>
-                <p className="text-white text-xs font-medium">
+                <p className="text-[#5e6977] text-xs font-medium">
                   Strictly Confidential
                 </p>
-                <p className="text-[#94a3b8] text-xs">
+                <p className="text-[#5e6977] text-xs">
                   All enquiries are protected
                 </p>
               </div>
@@ -171,37 +172,37 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="w-full h-px bg-white/10" />
+      <div className="w-full h-px bg-black/10" />
 
       {/* Bottom bar */}
       <div className="px-6 lg:px-40 py-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-[#475569] text-xs">
+          <p className="text-[#94a3b8] text-xs">
             © {new Date().getFullYear()} Norwyn Solution. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">
             <Link
               href="/privacy"
-              className="text-[#475569] hover:text-[#b8960c] text-xs transition-colors duration-200"
+              className="text-[#94a3b8] hover:text-[#b8960c] text-xs transition-colors duration-200"
             >
               Privacy Policy
             </Link>
             <Link
               href="/terms"
-              className="text-[#475569] hover:text-[#b8960c] text-xs transition-colors duration-200"
+              className="text-[#94a3b8] hover:text-[#b8960c] text-xs transition-colors duration-200"
             >
               Terms & Conditions
             </Link>
             <Link
               href="/contact"
-              className="text-[#475569] hover:text-[#b8960c] text-xs transition-colors duration-200"
+              className="text-[#94a3b8] hover:text-[#b8960c] text-xs transition-colors duration-200"
             >
               Contact
             </Link>
           </div>
 
-          <p className="text-[#475569] text-xs">Regulated · Trusted · Global</p>
+          <p className="text-[#94a3b8] text-xs">Regulated · Trusted · Global</p>
         </div>
       </div>
     </footer>
