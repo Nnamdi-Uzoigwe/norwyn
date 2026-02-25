@@ -15,11 +15,20 @@ const Navbar = () => {
       {/* Main navbar row */}
       <div className="flex items-center justify-between h-20 lg:h-24">
         {/* Logo */}
-        <Link href="/">
+        <Link href="/" className="hidden lg:flex">
           <Image
             src="/NORWYN.svg"
             height={100}
             width={100}
+            alt="norwyn logo"
+            />
+        </Link>
+
+        <Link href="/" className="flex lg:hidden">
+          <Image
+            src="/NORWYN.svg"
+            height={80}
+            width={80}
             alt="norwyn logo"
             />
         </Link>
