@@ -50,9 +50,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Link href="/">
               <Image  
-                src="/Norwyn.svg"
-                height={80}
-                width={80}
+                src="/icon.png"
+                height={100}
+                width={100}
                 alt="Norwyn logo"
                 className="mb-5"
               />
