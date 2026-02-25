@@ -15,12 +15,14 @@ const Navbar = () => {
       {/* Main navbar row */}
       <div className="flex items-center justify-between h-20 lg:h-24">
         {/* Logo */}
-        <Image
-          src="/NORWYN.svg"
-          height={100}
-          width={100}
-          alt="norwyn logo"
-        />
+        <Link href="/">
+          <Image
+            src="/NORWYN.svg"
+            height={100}
+            width={100}
+            alt="norwyn logo"
+            />
+        </Link>
 
         {/* Desktop nav links */}
         <div className="hidden md:flex items-center text-lg gap-6 font-medium lg:gap-10">

@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { BiBitcoin } from "react-icons/bi";
-import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
-import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
+
+import { MdOutlineEmail } from "react-icons/md";
 import { HiOutlineLockClosed } from "react-icons/hi";
 
 const quickLinks = [
@@ -48,13 +47,15 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Col 1 — Brand */}
           <div className="lg:col-span-1">
-            <Image
-              src="/icon.png"
-              height={60}
-              width={60}
-              alt="Norwyn logo"
-              className="mb-5"
-            />
+            <Link href="/">
+              <Image  
+                src="/icon.png"
+                height={60}
+                width={60}
+                alt="Norwyn logo"
+                className="mb-5"
+              />
+            </Link>
 
             <p className="text-[#94a3b8] text-sm leading-relaxed mb-6">
               Specialists in cryptocurrency and investment fraud recovery. We
@@ -69,14 +70,6 @@ const Footer = () => {
               >
                 <MdOutlineEmail className="text-[#b8960c] text-base shrink-0" />
                 help@norwynsolution.com
-              </a>
-
-              <a
-                href="tel:+441234567890"
-                className="flex items-center gap-3 text-[#94a3b8] hover:text-[#b8960c] transition-colors duration-200 text-sm"
-              >
-                <MdOutlinePhone className="text-[#b8960c] text-base shrink-0" />
-                +44 123 456 7890
               </a>
             </div>
           </div>
