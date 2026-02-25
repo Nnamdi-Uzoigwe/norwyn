@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 export default function ServicesIntro() {
   return (
     <section className="relative w-full h-[60vh] min-h-100">
-      {/* Background — reuse a dark office image */}
+      {/* Background  */}
       <div className="absolute inset-0 bg-[#0a1628]" />
 
       {/* Grid pattern overlay */}
