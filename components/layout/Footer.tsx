@@ -22,17 +22,17 @@ const badges = [
   {
     src: "/abi-badge.png",
     alt: "Association of British Investigators",
-    href: "https://www.theabi.org.uk/member/4387",
+    href: "https://www.tlneabi.org.uk/",
   },
   {
     src: "/chainalysis-badge.png",
     alt: "Chainalysis Investigation Specialist Certification",
-    href: "https://verify.skilljar.com/c/nrcseeawpvh8",
+    href: "https://verify.skillljar.com/",
   },
   {
     src: "/crypto-investigator-badge.png",
     alt: "Cryptocurrency Investigator Marketplace",
-    href: "https://cryptocurrencyinvestigator.com/investigators/cnc-intelligence/",
+    href: "https://www.hashdetective.com",
   },
 ];
 
