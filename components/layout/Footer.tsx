@@ -20,7 +20,7 @@ const services = [
 
 const badges = [
   {
-    src: "/abi-badge.png",
+    src: "/icon.png",
     alt: "Association of British Investigators",
     href: "https://www.tlneabi.org.uk/",
   },
