@@ -20,17 +20,17 @@ const services = [
 
 const badges = [
   {
-    src: "/icon.png",
+    src: "/norwyn-svg.svg",
     alt: "Association of British Investigators",
-    href: "https://www.tlneabi.org.uk/",
+    href: "https://www.tlneabi.org.uk/norwynsolution",
   },
   {
     src: "/chainalysis-badge.png",
     alt: "Chainalysis Investigation Specialist Certification",
-    href: "https://verify.skillljar.com/",
+    href: "https://verify.skillljar.com/c/l6iu22vbtfah",
   },
   {
-    src: "/crypto-investigator-badge.png",
+    src: "/icon.png",
     alt: "Cryptocurrency Investigator Marketplace",
     href: "https://www.hashdetective.com",
   },
