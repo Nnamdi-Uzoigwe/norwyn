@@ -32,7 +32,7 @@ const badges = [
   {
     src: "/icon.png",
     alt: "Cryptocurrency Investigator Marketplace",
-    href: "https://www.hashdetective.com",
+    href: "https://www.hashdetective.com/norwynsolution",
   },
 ];
 

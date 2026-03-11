@@ -16,33 +16,40 @@ const jost = Jost({
   variable: "--font-jost",
 });
 
-export const metadata: Metadata = {
-  title: "Norwyn Solution | Investment Fraud Recovery Specialists",
-  description:
-    "Norwyn Solution provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
-  keywords: [
-    "asset recovery",
-    "cryptocurrency tracing",
-    "investment fraud recovery",
-    "forex scam recovery",
-    "freezing orders",
-  ],
-  openGraph: {
-    title: "Norwyn Solution | Investment Fraud Recovery Specialists",
-    description:
-      "Norwyn Solutions provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
-    url: "https://norwyn.vercel.app", // 👈 replace with your actual URL
-    siteName: "Norwyn Solution",
-    locale: "en_US",
-    type: "website",
+export const metadata = {
+  robots: {
+    index: false,
+    follow: false,
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Norwyn Solution | Investment Fraud Recovery Specialists",
-    description:
-      "Norwyn Solution provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
-  },
-};
+}
+
+// export const metadata: Metadata = {
+//   title: "Norwyn Solution | Investment Fraud Recovery Specialists",
+//   description:
+//     "Norwyn Solution provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
+//   keywords: [
+//     "asset recovery",
+//     "cryptocurrency tracing",
+//     "investment fraud recovery",
+//     "forex scam recovery",
+//     "freezing orders",
+//   ],
+//   openGraph: {
+//     title: "Norwyn Solution | Investment Fraud Recovery Specialists",
+//     description:
+//       "Norwyn Solutions provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
+//     url: "https://norwyn.vercel.app", // 👈 replace with your actual URL
+//     siteName: "Norwyn Solution",
+//     locale: "en_US",
+//     type: "website",
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Norwyn Solution | Investment Fraud Recovery Specialists",
+//     description:
+//       "Norwyn Solution provides a single, coordinated solution for cryptocurrency tracing, legal action, freezing orders, and asset recovery - guiding fraud victims every step of the way.",
+//   },
+// };
 
 export default function RootLayout({
   children,
